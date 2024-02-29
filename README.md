@@ -3,6 +3,17 @@
 Este es un proyecto para resolver la prueba tecnica para **"Desarrollador Java Especialista Integración"** que implementa un servicio de creación de usuarios utilizando Java 17, Spring Boot 3.1.9, JPA, H2 Database, Lombok, JUnit 5 con Mockito y Swagger (OpenAPI).
 Además, se proporciona un Dockerfile para facilitar la ejecución del servicio en un contenedor Docker, y una pipeline de CI/CD en Gitlab para ejecutar pruebas unitarias, verificar la creación del contenedor y fusionar automáticamente los cambios en la rama main si la pipeline se ejecuta correctamente.
 
+## Tabla de Contenido
+
+1. [Introducción](#introducción)
+2. [Tabla de Contenido](#tabla-de-contenido)
+3. [Versiones y Otros](#versiones-y-otros)
+4. [Estructura del Proyecto](#estructura-del-proyecto)
+5. [Instalación y Ejecución](#instalación-y-ejecución)
+6. [Contenedor Docker](#contenedor-docker)
+7. [Pipeline de CICD en Gitlab](#pipeline-de-cicd-en-gitlab)
+
+
 ## Versiones y Otros
 | Tecnología/Herramienta      | Versión                       |
 |-----------------------------|-------------------------------|
@@ -12,17 +23,6 @@ Además, se proporciona un Dockerfile para facilitar la ejecución del servicio 
 | Docker                      | 0.0                           |
 | Container OS                | Linux                         |
 | H2 Database                 | 2.1.214                       |
-
-
-## Tabla de Contenido
-
-1. [Introducción](#introducción)
-2. [Versiones y Otros](#versiones-y-otros)
-3. [Tabla de Contenido](#tabla-de-contenido)
-4. [Estructura del Proyecto](#estructura-del-proyecto)
-5. [Instalación y Ejecución](#instalación-y-ejecución)
-6. [Contenedor Docker](#contenedor-docker)
-7. [Pipeline de CICD en Gitlab](#pipeline-de-cicd-en-gitlab)
 
 
 ## Estructura del Proyecto
