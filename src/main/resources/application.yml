@@ -1,2 +1,26 @@
-{
-    }
+spring:
+  application:
+    name: java-test-bci
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    url: jdbc:h2:mem:java-test-db;NON_KEYWORDS=user;MODE=MySQL;DATABASE_TO_LOWER=TRUE;CASE_INSENSITIVE_IDENTIFIERS=TRUE;
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+jwt:
+  secret-key: banco-bci-test
+  expiration-time: 864_000_000
+reg-ex:
+  format:
+    email: ${EMAIL_REGEX_FORMAT:asd}
+    password: ${PASSWORD_REGEX_FORMAT:asd}
